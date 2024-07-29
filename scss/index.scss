@@ -1,0 +1,34 @@
+// variables 
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Indie+Flower&family=Inter:wght@100..900&family=Rowdies:wght@300;400;700&display=swap');
+@import "./variables";
+
+
+// layout
+@import "./reset";
+@import "./breakpoints";
+
+
+// components
+
+// @import "./components/BlogPreviewCard";
+
+@import "./components/SocialLinksProfileMain";
+
+body{
+  background-color: $grey900;
+  padding-inline: 20px ;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  user-select: none;
+}
+
+// utilities
+
+@import "./utilities";
+
+
+
+
+
