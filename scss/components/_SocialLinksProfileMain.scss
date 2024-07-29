@@ -37,11 +37,11 @@
   }
 
   &__links {
-    ul ~ ul {
+    div ~ div {
       margin-top: 20px;
     }
 
-    ul {
+    div {
       display: block;
       width: 90%;
       margin-inline: auto;
