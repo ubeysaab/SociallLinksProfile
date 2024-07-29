@@ -81,7 +81,7 @@ select {
   margin-bottom: 20px;
   width: 90px;
   height: 90px;
-  background-image: url("../../assets/images/avatar-jessica.jpeg");
+  background-image: url("/assets/images/avatar-jessica.jpeg");
   background-size: contain;
   background-position: center;
 }
@@ -117,10 +117,10 @@ select {
   text-decoration: none;
   color: hsl(0, 0%, 100%);
   font-weight: 500;
-  cursor: url("../../assets/images/icons8-cursor-50.png"), auto;
+  cursor: url("/assets/images/icons8-cursor-50.png"), auto;
 }
 .social-links-profile-main__links ul:hover {
-  cursor: url("../../assets/images/icons8-cursor-50.png"), auto;
+  cursor: url("/assets/images/icons8-cursor-50.png"), auto;
   background-color: hsl(75, 94%, 57%);
 }
 .social-links-profile-main__links ul:hover a {
